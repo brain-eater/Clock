@@ -1,0 +1,29 @@
+.clock {
+  background-image: url("clock.jpg");
+  height: 600px;
+  width: 600px;
+  background-size: cover;
+}
+
+.hand {
+  transform-origin: left;
+  transform: rotate(-90deg);
+  top: 300px;
+  left: 310px;
+  position: absolute;
+}
+.secondHand {
+  height: 5px;
+  width: 270px;
+  background-color: red;
+}
+.minuteHand {
+  height: 10px;
+  width: 240px;
+  background-color: blue;
+}
+.hourHand {
+  height: 10px;
+  width: 200px;
+  background-color: black;
+}
